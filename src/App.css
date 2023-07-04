@@ -6,7 +6,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@ input[type="radio"] {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  padding:30px;
+  padding:10px;
   box-sizing: border-box;
   background-color: #fff;
   border-radius: 5px;
@@ -46,12 +46,13 @@ input[type="radio"] {
 
 .feedbackForm label h3 {
   text-align: left;
+  padding-left: 50px;
 }
 
 .happynessPicker label {
   font-size: 30px;
   background-color: #efefef;
-  padding: 15px 10px;
+  padding: 5px 10px;
   cursor: pointer;
   margin: 5px;
 }
@@ -61,5 +62,5 @@ input[type="radio"] {
 }
 
 .totalScore {
-  margin-top: 60px;
+  margin-top: 40px;
 }
